@@ -7,7 +7,7 @@ import { FormField, Loader } from "../components";
 
 const CreatePost = () => {
   const navigate = useNavigate();
-  console.log(import.meta.env.VITE_OPENAIKEY);
+  // console.log(import.meta.env.VITE_OPENAIKEY);
   const [form, setForm] = useState({
     name: "",
     prompt: "",
