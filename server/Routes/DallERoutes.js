@@ -6,8 +6,6 @@ dotenv.config({ path: "./.env" });
 
 const router = express.Router();
 
-console.log(process.env.OPENAIKEY);
-
 const configuration = new Configuration({
   organization: "org-PyidNvhpRCtOuJTmXI9bkNOe",
   apiKey: process.env.OPENAIKEY,
