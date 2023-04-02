@@ -62,6 +62,7 @@ const CreatePost = () => {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
+              Authentication: import.meta.env.VITE_OPENAIKEY,
             },
             body: JSON.stringify(form),
           }
