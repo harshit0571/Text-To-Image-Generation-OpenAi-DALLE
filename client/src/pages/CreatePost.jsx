@@ -71,7 +71,7 @@ const CreatePost = () => {
         await response.json;
         navigate("/");
       } catch (error) {
-        alert(error);
+        console.log(error);
       } finally {
         setLoading(false);
       }
